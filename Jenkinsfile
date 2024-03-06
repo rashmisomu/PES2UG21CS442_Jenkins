@@ -21,7 +21,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                echo 'deploy'
+               sh 'deploy_script.sh --invalid-option'
     }
         }
     }
